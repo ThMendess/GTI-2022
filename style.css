@@ -1,0 +1,61 @@
+*{
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://img.freepik.com/fotos-gratis/fundo-preto-antigo-textura-do-grunge-papel-de-parede-escuro-quadro-negro-quadro-negro-parede-da-sala_1258-28313.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.966);
+
+}
+header{
+    color: white;
+}
+.galeria{
+    margin: 0;
+    display: flex;
+height: 55vh;
+gap: 0.8px;
+margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+    color: rgb(228, 5, 5);
+}
+
+.galeria div{
+    flex: 2;
+    background-size: cover;
+    background-position: bottom center;
+transition: all 0.5 cubic-bezier(.41,.52,.41,.53);
+
+}
+.galeria div:hover{
+    flex: 7;
+}
+
+h1{
+    font-size: 50px ;
+    font-family: "Londrina Sketch", sans-serif;
+text-align: center;
+color: white;
+}
+
+.form{
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+
+}
+footer{
+    text-align: center;
+    /* background-image: url("https://c4.wallpaperflare.com/wallpaper/816/984/1008/car-volkswagen-golf-mk7-stance-tuning-wallpaper-preview.jpg");
+ background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-color: aliceblue;
+    height: 50px;
+
+}
